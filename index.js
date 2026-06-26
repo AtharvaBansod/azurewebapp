@@ -17,22 +17,10 @@ app.get("/", (req, res) => {
       </style>
     </head>
     <body>
-      <h1>🚀 Azure App Service is Working!</h1>
-      <p id="msg">Click the button to call API</p>
-      <button onclick="callApi()">Call API</button>
+      <h1>🚀 Azure App Service is Working! - By Atharva</h1>
+      
 
-      <script>
-        function callApi() {
-          fetch('/api/hello')
-            .then(res => res.json())
-            .then(data => {
-              document.getElementById('msg').innerText = data.message;
-            })
-            .catch(() => {
-              document.getElementById('msg').innerText = "Error calling API";
-            });
-        }
-      </script>
+      
     </body>
     </html>
   `);
