@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
       </style>
     </head>
     <body>
-      <h1>App by Charitha !!!</h1>
+      <h1>App by Atharva !!!</h1>
       
 
       
