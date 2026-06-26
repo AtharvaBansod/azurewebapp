@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
       </style>
     </head>
     <body>
-      <h1>🚀 Azure App Service is Working! - By Atharva</h1>
+      <h1>App by Charitha !!!</h1>
       
 
       
